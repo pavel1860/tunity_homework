@@ -1,0 +1,15 @@
+{
+    "extends": "google",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "require-jsdoc": ["warning", {
+            "require": {
+                "FunctionDeclaration": false,
+                "MethodDefinition": false,
+                "ClassDeclaration": false,
+                "ArrowFunctionExpression": false,
+                "FunctionExpression": false
+            }
+        }]
+    }
+}
